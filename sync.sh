@@ -95,21 +95,22 @@ done
   echo
   echo "## 上游 Skills（链接到原仓库）"
   echo
+  echo "---"
   for name in $(printf '%s\n' "${!FOUND[@]}" | sort); do
     url="${UPSTREAM[$name]:-}"
     if [ -n "$url" ]; then
-      echo "### $name"
-      echo "链接: $url"
-      echo
+      echo "- $name:$url"
     fi
   done
+  echo "---"
+  echo
   echo "## 本地 Skills（无公开上游，已备份到本仓库）"
   echo
+  echo "---"
   for name in $(printf '%s\n' "${local_names[@]:-}" | grep -v '^$' | sort); do
-    echo "### $name"
-    echo "链接: $REPO_URL/blob/main/local/$name/SKILL.md"
-    echo
+    echo "- $name:$REPO_URL/blob/main/local/$name/SKILL.md"
   done
+  echo "---"
 } > README.md
 
 # 提交并推送

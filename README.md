@@ -15,6 +15,9 @@
 ### code-reviewer
 链接: https://github.com/rmyndharis/antigravity-skills/tree/main/skills/code-reviewer
 
+### diagram-design
+链接: https://github.com/cathrynlavery/diagram-design/tree/main/skills/diagram-design
+
 ### dispatching-parallel-agents
 链接: https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents
 

@@ -30,6 +30,7 @@ declare -A UPSTREAM=(
   [ui-animation]="https://github.com/mblode/agent-skills/tree/main/skills/ui-animation"
   [modern-web-guidance]="https://github.com/GoogleChrome/modern-web-guidance/tree/main/skills/modern-web-guidance"
   [chrome-extensions]="https://github.com/GoogleChrome/modern-web-guidance/tree/main/skills/chrome-extensions"
+  [diagram-design]="https://github.com/cathrynlavery/diagram-design/tree/main/skills/diagram-design"
 )
 
 # 收集本机已安装的 skill：名称<TAB>来源目录
